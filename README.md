@@ -43,7 +43,7 @@ git version 2.21.0.windows.1
 
 #### Heroku
 
-La página web se encuentra alojada en la nube usando Keroku, para comprobar que se tengan los requisitos en el computador:
+La página web se encuentra alojada en la nube usando Heroku, para comprobar que se tengan los requisitos localmente:
 
 ```
 > heroku -v
@@ -71,7 +71,7 @@ Para ejecutar el programa localmente haciendo uso de Heroku, se necesita desde l
 
 > heroku local web
 ```
-En la página web...
+En la página web se deben ingresar los números en el campo de ingreso separados por comas
 
 ## Ejecutando los Test
 
@@ -79,10 +79,31 @@ Para ejecutar únicamente los test, se tiene el siguiente comando desde CMD:
 ```
 > mvn test
 
-
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running edu.escuelaing.arep.CalculatorTest
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.271 s - in edu.escuelaing.arep.CalculatorTest
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.428 s
+[INFO] Finished at: 2020-08-10T11:17:13-05:00
+[INFO] ------------------------------------------------------------------------
 ```
 
 Los test...
+
+### Generar JavaDoc
+
+```
+mvn javadoc:javadoc
+```
 
 # Descripción del Diseño
 
