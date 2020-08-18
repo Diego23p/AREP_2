@@ -106,6 +106,12 @@ Los seis primeros test evalúan el funcionamiento de la linkedList como tal, los
 mvn javadoc:javadoc
 ```
 
+## Heroku
+
+La aplicación desplegada en la nube se encuentra en: 
+
+[![Heroku](https://camo.githubusercontent.com/be46aee4f8d55e322c3e7db60ea23a4deb5427c9/68747470733a2f2f6865726f6b752d62616467652e6865726f6b756170702e636f6d2f3f6170703d6865726f6b752d6261646765)](https://boiling-cove-24254.herokuapp.com/inputdata)
+
 # Descripción del Diseño
 
 [disenoLab2.pdf](disenoLab2.pdf)
