@@ -2,12 +2,12 @@ package edu.escuelaing.arep;
 
 import edu.escuelaing.arep.LinkedList.LinkedList;
 import static junit.framework.Assert.*;
-import static org.junit.Assert.assertNotEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 import org.junit.jupiter.api.Test;
 
 
-public class AppTest {
+public class CalculatorTest {
 	
 	//Test del funcionamineto de las linkedList y sus metodos (6)
 	
