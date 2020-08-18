@@ -97,7 +97,8 @@ Para ejecutar únicamente los test, se tiene el siguiente comando desde CMD:
 [INFO] ------------------------------------------------------------------------
 ```
 
-Los test...
+Los seis primeros test evalúan el funcionamiento de la linkedList como tal, los siguientes cuatro test prueban casos en donde debería y no debería coincidir los números esperados de media y desviación estandar.
+
 
 ### Generar JavaDoc
 
